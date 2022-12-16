@@ -1,155 +1,147 @@
-
 * {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    color: #513832;
-    ;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #513832;
 }
 
 body {
-    margin: 0;
-    background: url(./images/newBackground.jpeg)repeat;
+  margin: 0;
+  background: url(./images/newBackground.jpeg) repeat;
 }
 
 .logoBox {
-    display: flex;
-    justify-content: space-between;
-    margin: -70px 0px 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  margin: -70px 0px 30px 0px;
 }
 
 .mainLogo {
-    width: 150px;
+  width: 150px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-    box-shadow: 5px;
-    height: 120px;
-    border-radius: 100px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 5px;
+  height: 120px;
+  border-radius: 100px;
+  margin-bottom: 20px;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
-
-
 nav li a {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-decoration: none;
-    margin: 0px 60px;
-    font-size: 18px;
-    color: #513832;
-
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 60px;
+  font-size: 18px;
+  color: #513832;
 }
 
 nav li :hover {
-    color: #dd5f1ac2;
+  color: rgba(221, 95, 26, 0.7607843137);
 }
 
 .indexImage {
-    height: 100%;
-
+  height: 100%;
 }
 
 .indexImage img {
-    width: 100vw;
+  width: 100vw;
 }
 
 .mainTextBox {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    text-align: center;
-    border: 5px solid #d9d9d966;
-    border-radius: 5%;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+  border: 5px solid rgba(217, 217, 217, 0.4);
+  border-radius: 5%;
 }
 
 .container {
-    width: 80%;
-    /* max-width: 1024px; */
+  width: 80%;
+  /* max-width: 1024px; */
 }
 
 .profileCardSection {
-    height: 100vh;
+  height: 100vh;
 }
 
 .profileBlock {
-    display: flex;
-    height: 500px;
-    width: 100%;
-    margin: auto;
-    border: 1px solid #e2e2e2;
-    border-radius: 20px;
+  display: flex;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
 }
 
 .profileLeft {
-    width: 100%;
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-    overflow: hidden;
+  width: 100%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  overflow: hidden;
 }
 
 .profileImg {
-    height: 100%;
+  height: 100%;
 }
 
 .profileRight {
-    width: 100%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+  width: 100%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 h2 {
-    font-size: 3rem;
-    text-align: center;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .cardBlock {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .familyCard {
-    border: 1px solid #e9e9e9;
-    height: 300px;
-    width: 200px;
-    margin: 20px 0px;
-    border-radius: 20px;
-    overflow: hidden;
-    background-color: #fff;
-
+  border: 1px solid #e9e9e9;
+  height: 300px;
+  width: 200px;
+  margin: 20px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
 }
 
 .cardBlock :hover {
-    box-shadow: 10px 5px 5px rgba(121, 121, 121, 0.478);
-    transition: .5s;
+  box-shadow: 10px 5px 5px rgba(121, 121, 121, 0.478);
+  transition: 0.5s;
 }
 
 .familyCardImgBolck {
-    height: 70%;
-    background-color: rgb(205, 107, 107);
+  height: 70%;
+  background-color: rgb(205, 107, 107);
 }
 
 .familyCardPBlock {
-    height: 30%;
-    margin: 20px;
+  height: 30%;
+  margin: 20px;
 }
 
 .familyCardImgBolck img {
-    height: 100%;
+  height: 100%;
 }
-
 
 /* begin::carousel */
 /* .wrap{
@@ -182,41 +174,44 @@ ul.picBlock{
     border: 1px solid red;
 } */
 /* end::carousel */
-
 footer {
-    background-color: #EAE7E6;
+  background-color: #EAE7E6;
 }
 
 footer img {
-    width: 100px;
-    margin: 5px;
+  width: 100px;
+  margin: 5px;
 }
-        .wrap{
-            width: 800px;
-            height: 400px;
-            overflow: hidden;
-            position: relative;
 
-        }
-        ul.picBlock{
-            padding: 0;
-            display: flex;
-            width: 600%;
-            transform: translate(-0px);
-            outline: 1px dashed rgb(7, 89, 114);
-        }
-        .picBlock li{
-            flex-basis: 0;
-            flex-grow: 1;
-        }
-        .picBlock li img{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+.wrap {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
 
-        .sliderDotBlock li{
-            width: 20px;
-            height: 10px;
-            border: 1px solid red;
-        }
+ul.picBlock {
+  padding: 0;
+  display: flex;
+  width: 600%;
+  transform: translate(0px);
+  outline: 1px dashed rgb(7, 89, 114);
+}
+
+.picBlock li {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.picBlock li img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sliderDotBlock li {
+  width: 20px;
+  height: 10px;
+  border: 1px solid red;
+}/*# sourceMappingURL=index.css.map */
